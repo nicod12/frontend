@@ -1,0 +1,17 @@
+.stats-container {
+    width: 375px;
+    min-height: 780px;
+    height: auto;
+    top: 156px;
+    padding: 12px;
+    gap: 16px;
+}
+
+.match-result {
+    width: 351px;
+    height: auto;
+    max-height: 114px;
+    padding: 8px 16px;
+    gap: 32px;
+}
+

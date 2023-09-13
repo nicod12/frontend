@@ -1,0 +1,23 @@
+.crumb-container {
+ display: flex;
+ justify-content: space-between;
+ width: 375px;
+ height: 60px;
+ border: 0px 0px 1px 0px;
+ padding: 10px 12px 10px 12px;
+}
+
+.left {
+ min-width: 107px;
+ width: auto;
+ min-height: 21px;
+ height: auto;   
+ gap: 12px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+    color:#FFFFFF;
+}

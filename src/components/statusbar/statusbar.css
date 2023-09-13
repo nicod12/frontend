@@ -1,0 +1,52 @@
+.container-status {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 375px;
+    min-height: 44px;
+    height: auto;
+    padding: 13px 10px;
+    gap: 211px;
+  }
+  
+  .time {
+    width: 75px;
+    gap: 10px;
+  }
+  
+  .t-text {
+    width: 42px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px; /* Ajustado para que coincida con la altura */
+    letter-spacing: -0.17px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    width: 66.5px;
+    height: 12px;
+    gap: 5px;
+    color: #FFFFFF;
+  }
+  
+  .wif {
+    width: 15px;
+    height: 11px;
+  }
+  
+  .net {
+    min-height: 11px;
+    height: auto;
+    gap: 1.5px;
+  }
+  
+  .bat {
+    width: 25px;
+    height: 12px;
+  }
+  
