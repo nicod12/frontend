@@ -127,3 +127,55 @@
     max-height: 18px;
     gap: 4px;
   }
+
+  .box-content {
+    width: 351px;
+    height: 592px;
+  }
+  
+  .module {
+    width: 327px;
+    height: 560px;
+    gap: 20px;
+  }
+  
+  .bar {
+    width: 100%; /* Asegura que el li ocupe todo el ancho del ul */
+    height: 38px;
+    padding: 0px 0px 4px 0px;
+    gap: 12px;
+    list-style: none;
+    display: flex; /* Hace que los elementos internos se alineen en fila */
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
+  
+  .cont {
+    flex: 1; /* Permite que .cont ocupe el espacio restante en .bar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 327px;
+    height: 18px;
+  }
+  
+  .description {
+    text-transform: uppercase;
+  }
+  
+  .text-numb {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+  
+  .text-descrip {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15.6px;
+    text-align: center;
+    color: #8D8D8D;
+  }
+  
+

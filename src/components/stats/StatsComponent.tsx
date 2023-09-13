@@ -39,6 +39,18 @@ export const StatsComponent = (): JSX.Element => {
      </section>
     </section>
      <img className='barra' src="https://i.postimg.cc/VLz1RmtB/Separador2.png" alt="separador2" />
-   </>
+     <article className='box-content'>
+       <div className='module'>
+        <div className='bar'>
+          <div className='cont'>
+            <div className='number'><h2 className='text-numb'>10</h2></div>
+            <div className='description'><h2 className='text-descrip'>Total Shots</h2></div>
+            <div className='number'><h2 className='text-numb'>4</h2></div>
+          </div>
+          <img src="" alt="" />
+        </div>
+      </div>
+    </article>
+      </>
   )
 }
