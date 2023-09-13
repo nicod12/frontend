@@ -11,7 +11,8 @@
 .match-result {
     display: flex;
     align-items: center;
-    width: 351px;
+    max-width: 351px;
+    width: auto;
     height: auto;
     max-height: 114px;
     padding: 8px 16px 8px 16px;
