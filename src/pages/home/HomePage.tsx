@@ -1,11 +1,9 @@
-import { Crumbs, StatusBar, TabBar } from '../../components'
+import { StatsTabs } from '../../components'
 
 const HomePage = (): JSX.Element => {
   return (
     <section>
-      <StatusBar />
-      <Crumbs />
-      <TabBar />
+      <StatsTabs />
     </section>
   )
 }
