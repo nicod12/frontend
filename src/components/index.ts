@@ -1,4 +1,5 @@
 export * from './pure/crumbs'
 export * from './pure'
+export * from './pure/statscontent'
 export * from './pure/statstab'
-export * from './pure/tapbar/TapBar'
+export * from './pure/tapbar'

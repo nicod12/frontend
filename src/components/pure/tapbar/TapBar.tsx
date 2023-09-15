@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './TapBar.css'
+import { StatsContent } from '..'
 
 export const TapBar: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0)
@@ -79,6 +80,7 @@ export const TapBar: React.FC = () => {
               Stats
             </h2>
           </div>
+          {activeTab === 3 && <StatsContent/>}
         </li>
         <li className={`tab visible ${activeTab === 4 ? 'active' : ''}`}
             onClick={() => {
