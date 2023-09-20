@@ -1,5 +1,7 @@
 export * from './columns'
 export * from './crumbs'
+export * from './scoreboard'
 export * from './statscontent'
 export * from './statstab'
 export * from './tapbar'
+export * from './zone/ZoneComponent'
