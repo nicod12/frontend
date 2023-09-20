@@ -1,3 +1,4 @@
+export * from './pure/columns'
 export * from './pure/crumbs'
 export * from './pure'
 export * from './pure/statscontent'

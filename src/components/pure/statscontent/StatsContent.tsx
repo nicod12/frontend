@@ -1,3 +1,4 @@
+import { ColumnsComponent } from '..'
 import './StatsContent.css'
 
 export const StatsContent = (): JSX.Element => {
@@ -45,6 +46,8 @@ export const StatsContent = (): JSX.Element => {
           </article>
         </section>
       </section>
+
+      <ColumnsComponent />
     </section>
   )
 }
