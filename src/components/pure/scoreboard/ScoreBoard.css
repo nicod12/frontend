@@ -30,6 +30,7 @@
   }
   
   .label {
+  font-family: 'Lato', sans-serif;
    font-weight: 500;
    font-size:  16px;
    line-height: 20.8px;
@@ -68,6 +69,7 @@
   }
   
   .scoreboard {
+    font-family: 'Lato', sans-serif;
     max-width: 20px;
     height: 21px;
     font-weight: 500;
@@ -81,13 +83,14 @@
   }
   
   .finished {
+    font-family: 'Lato', sans-serif;
     max-width: 58px;
     height: 16px;
     font-weight: 500;
     font-size: 12px;
     line-height: 15.6px;
     text-align: center;
-    color: #6AD56A;
+    color: #f7d22df3;
   }
   
   .token {
@@ -105,6 +108,7 @@
   }
   
   .coint {
+    font-family: 'Lato', sans-serif;
     max-width: 9px;
     height: 18px;
     font-weight: 400;

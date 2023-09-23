@@ -29,45 +29,8 @@
     gap: 12px;
 }
 
-.b-cont {
-    max-width: 327px;
-    height: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.numb-inf {
-    max-width: 40px;
-    height: 18px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18.2px;
-    color: #FFFFFF;
-}
-
-
-.t-right {
-    text-align: right;
-}
-
-.nam-stat {
-    max-width: 75px;
-    height: 16px;
-}
-
-.lab-t {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 15.6px;
-    text-align: center;
-    color: #8D8D8D;
-    width: 75px;
-    height: 16px;
-}
-
 .progress {
     max-width: 327px;
     height: 4px;
-    background: linear-gradient(to right, #3498db 64% , #FF64B1 43%);
+    background: linear-gradient(to right, #c0f335e0 64% , #e65218fb 43%);
 }

@@ -48,6 +48,7 @@
   }
   
   .tab-label {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 18.2px;
@@ -66,6 +67,7 @@
   }
   
   .tab-label-special {
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 18.2px;
