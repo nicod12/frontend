@@ -21,7 +21,7 @@
 }
 
 .nam-stat {
-    max-width: 75px;
+    max-width: auto;
     height: 16px;
 }
 
@@ -31,6 +31,6 @@
     line-height: 15.6px;
     text-align: center;
     color: #8D8D8D;
-    width: 75px;
-    height: 16px;
+    text-transform: uppercase;
+    width: auto;
 }

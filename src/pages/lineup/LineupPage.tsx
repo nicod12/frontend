@@ -1,7 +1,7 @@
 const LineupPage = (): JSX.Element => {
   return (
     <div>
-      desde lineup
+      <h2 className="warning">content not available</h2>
     </div>
   )
 }

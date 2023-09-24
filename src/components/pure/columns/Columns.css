@@ -6,7 +6,6 @@
     padding: 24px;
     border-top: 1px solid #1C1C1C;
     gap: 32px;
-
 }
 
 .game {
@@ -32,5 +31,14 @@
 .progress {
     max-width: 327px;
     height: 4px;
-    background: linear-gradient(to right, #c0f335e0 64% , #e65218fb 43%);
-}
+    background: transparent; /* Fondo transparente o del color deseado */
+    position: relative; /* Asegura que los colores se superpongan correctamente */
+  }
+  
+  .progress-color {
+    position: absolute;
+    height: 4px;
+    top: 0;
+    left: 0;
+    width: 100%
+  }
