@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './TapBar.css'
-import { StatsContent } from '..'
+import { LineupComponent, StatsContent } from '..'
 
 export const TapBar: React.FC = () => {
   const [activeTab, setActiveTab] = useState(0)
@@ -97,6 +97,7 @@ export const TapBar: React.FC = () => {
               Lineup
             </h2>
           </div>
+          {activeTab === 4 && <LineupComponent/>}
         </li>
       </ul>
     </section>
